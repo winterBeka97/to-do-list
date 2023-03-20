@@ -1,0 +1,15 @@
+/*@mixin button {
+    
+}*/
+
+@mixin container-style{
+    max-width: 800px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+@mixin header{
+    font-size: 2.5rem;
+    font-weight:300;
+    margin-bottom:1rem;
+}
