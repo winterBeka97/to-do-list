@@ -76,24 +76,19 @@ input, button{
   }
 }
 
-.content{
-  input{
-    border: 0;
-  }
-}
-
 #tasks{
 .task{
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: $color-3;
-  max-width: 70%;
+  max-width: 800px;
   border-radius: 1rem;
   background-color: $color-8;
   padding: 1rem;
   margin-bottom: 1rem;
   .content{
+    flex:1 1 0%;
     .text{
       color: $color-7;
       font-size: 1.125rem;
@@ -123,16 +118,18 @@ input, button{
       }
     }
     .edit{
-      border:1px solid $color-6;
-      background-color: $edit-color;
+      color:$color_6;
+      background-color: $b-fill;
       padding:10px 10px;
       border-radius:7px;
+      letter-spacing: 0.1rem;
     }
     .delete{
-      border:1px solid $color-6;
+      color:$color_6;
       background-color: $delete-color;
       padding:10px 10px;
       border-radius:7px;
+      letter-spacing: 0.1rem;
     }
   }
 }
